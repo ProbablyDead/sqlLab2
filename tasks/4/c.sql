@@ -1,0 +1,1 @@
+SELECT Mark from Car;

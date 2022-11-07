@@ -1,4 +1,4 @@
-SELECT Number FROM Garage	
+SELECT Identifier FROM Garage	
 WHERE NOT EXISTS
 	(
 	SELECT DISTINCT Car.Identifier FROM Car

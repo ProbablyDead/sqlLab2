@@ -1,4 +1,4 @@
-SELECT Garage.Number FROM Garage
+SELECT Garage.Identifier FROM Garage
 	WHERE Garage.Identifier IN ( 
 		SELECT Garage.Identifier 
 		FROM Repair INNER JOIN Details

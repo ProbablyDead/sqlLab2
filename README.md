@@ -1,6 +1,6 @@
 # Володин_Илья_Вар_9
 
-## 1
+## №1
 
 ```sql
 CREATE TABLE Car (
@@ -67,7 +67,7 @@ varcahr: Длина данных меняется, значение взято �
 
 ___No Results___
 
-## 2
+## №2
 
 ```sql
 INSERT INTO Car (Mark, ATP_owner, Discount) VALUES
@@ -117,7 +117,7 @@ INSERT INTO Repair (Car, Date, Garage, Detail, Count, Sum_count) VALUES
 ___No Results___
 
 
-## 3
+## №3
 
 ```sql
 SELECT * FROM Car;
@@ -133,7 +133,7 @@ ___Result___
 
 ![3](readmeStuff/3.png)
 
-## 4
+## №4
 
 ##### 4.C
 
@@ -165,7 +165,7 @@ ___Result___
 
 ![4e](readmeStuff/4e.png)
 
-## 5
+## №5
 
 ##### 5.C
 
@@ -202,7 +202,7 @@ ___Result___
 
 ![5e](readmeStuff/5e.png)
 
-## 6
+## №6
 
 ##### 6.C
 
@@ -231,7 +231,7 @@ ___Result___
 
 ![6d](readmeStuff/6d.png)
 
-## 7
+## №7
 
 ##### 7.C
 
@@ -298,7 +298,7 @@ ___Result___
 
 ![7f](readmeStuff/7f.png)
 
-## 8
+## №8
 
 ```sql
 UPDATE Repair, Car
@@ -315,7 +315,7 @@ ___Result___
 >_Updated table Repair_
 >![8u](readmeStuff/8u.png)
 
-## 9
+## №9
 
 ```sql
 ALTER TABLE Repair ADD COLUMN Commission TINYINT UNSIGNED CHECK (Commission <= 100); 
@@ -332,7 +332,7 @@ ___Result___
 
 ![9](readmeStuff/9.png)
 
-## 10
+## №10
 
 ##### 10.C
 
@@ -371,7 +371,7 @@ ___Result___
 
 ![10d](readmeStuff/10d.png)
 
-## 11
+## №11
 
 ##### 11.C
 
@@ -427,7 +427,7 @@ ___Result___
 
 ![11f](readmeStuff/11f.png)
 
-## 12
+## №12
 
 ```sql
 SELECT Location, ATP_owner FROM Repair, Garage, Car
@@ -445,7 +445,7 @@ ___Result___
 
 ![12](readmeStuff/12.png)
 
-## 13
+## №13
 <!--TODO 13.C-->
 ##### 13.C
 
@@ -513,7 +513,7 @@ ___Result___
 
 ![13f](readmeStuff/13f.png)
 
-## 14
+## №14
 
 ##### 14.C
 
@@ -565,7 +565,7 @@ ___Result___
 
 ![14f](readmeStuff/14f.png)
 
-## 15
+## №15
 
 ##### 15.C
 

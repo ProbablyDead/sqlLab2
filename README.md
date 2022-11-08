@@ -318,10 +318,10 @@ ___Result___
 ## №9
 
 ```sql
-ALTER TABLE Repair ADD COLUMN Commission TINYINT UNSIGNED CHECK (Commission <= 100); 
+ALTER TABLE Repair ADD COLUMN Commission INT UNSIGNED;
 
 UPDATE Repair, Garage 
-SET Repair.Commission = Garage.Commission
+SET Repair.Commission = Repair.Sum_count * Garage.Commission / 100
 WHERE Repair.Garage = Garage.Identifier;
 
 SELECT Order_number, Car, MONTHNAME(Date) AS Month,
